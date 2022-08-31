@@ -1,6 +1,3 @@
 [submodule "Testgame/Assets/Tools"]
 	path = Testgame/Assets/Tools
 	url = https://github.com/anthonyromrell/ArtisanDream.Tools
-[submodule "Testgame/Assets/Scripts"]
-	path = Testgame/Assets/Scripts
-	url = https://github.com/MeliaMasek/1610Fall2020
