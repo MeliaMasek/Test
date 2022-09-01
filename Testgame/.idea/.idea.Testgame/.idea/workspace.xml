@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="14957036-0e58-45d8-ba43-3fff7eb3e2eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Testgame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Testgame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +17,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextLabelBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -87,7 +83,7 @@
       <updated>1661920907133</updated>
       <workItem from="1661920911840" duration="737000" />
       <workItem from="1661921787727" duration="2814000" />
-      <workItem from="1661985711265" duration="2657000" />
+      <workItem from="1661985711265" duration="3982000" />
     </task>
     <servers />
   </component>
