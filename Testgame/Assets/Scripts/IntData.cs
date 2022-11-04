@@ -1,27 +1,44 @@
+using System;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Events;
+
 [CreateAssetMenu]
 public class IntData : ScriptableObject
-{ 
+{
     public int value;
+    //public UnityEvent disableEvent;
+    
+    public void SetValue(int num)
+    {
+        value = num;
+    }
 
+    public void CompareValue(IntData obj)
+    {
+        if (value >= obj.value)
+        {
+            
+        }
+        else
+        {
+            value = obj.value;
+        }
+    }
+    
+    public void SetValue(IntData obj)
+    {
+        value = obj.value;
+    }
+    
     public void UpdateValue(int number)
-        {
-            value += number;
-        }
-
-    public void ReplaceValue(int number)
-        {
-            value = number;
-        }
-
-    public void DisplaceImage(Image img)
-        {
-            img.fillAmount = value;
-        }
-
-    public void DisplaceNumber(Text txt)
-        {
-            txt.text = value.ToString();
-        }
+    {
+        value += number;
+    }
+    
+    /*private void OnDisable()
+    {
+        //Debug.Log("End");
+        disableEvent.Invoke();
+    }
+    */
 }
